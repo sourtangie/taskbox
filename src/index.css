@@ -224,7 +224,7 @@ body {
   font-style: 400;
   color: #333;
   font-size: 16px;
-  background-color: #26c6da;
+  background-color: #34da39;
 }
 h1,
 h2,
@@ -334,7 +334,7 @@ input:-webkit-autofill {
   height: 0.85em;
   transform: translate3d(-50%, -50%, 0);
   background: transparent;
-  box-shadow: #2cc5d2 0 0 0 1px inset;
+  box-shadow: #41d23e 0 0 0 1px inset;
   content: '';
   display: block;
 }
@@ -342,7 +342,7 @@ input:-webkit-autofill {
   font-size: 16px;
   line-height: 24px;
   box-shadow: none;
-  color: #2cc5d2;
+  color: #17d20e;
   margin-top: -1px;
   font-family: 'percolate';
   speak: none;
@@ -361,7 +361,7 @@ input:-webkit-autofill {
 }
 .input-symbol.error [class^="icon-"],
 .input-symbol.error [class*=" icon-"] {
-  color: #ff4400;
+  color: #d726ff;
 }
 .input-symbol [class^="icon-"],
 .input-symbol [class*=" icon-"] {
@@ -375,7 +375,7 @@ input:-webkit-autofill {
 }
 .input-symbol input:focus + [class^="icon-"],
 .input-symbol input:focus + [class*=" icon-"] {
-  color: #2cc5d2;
+  color: #2dd243;
 }
 .input-symbol [class^="icon-"],
 .input-symbol [class*=" icon-"] {
@@ -798,12 +798,12 @@ input:-webkit-autofill {
 }
 a {
   transition: all 200ms ease-in;
-  color: #5db9ff;
+  color: #1eff2d;
   cursor: pointer;
   text-decoration: none;
 }
 a:hover {
-  color: #239da8;
+  color: #2ba82c;
 }
 a:active {
   color: #555;
@@ -863,7 +863,7 @@ a:focus {
   color: #eee;
 }
 .list-item .actions a:hover {
-  color: #2cc5d2;
+  color: #2ad23a;
 }
 .list-item .actions a:active {
   color: #555;
@@ -875,7 +875,7 @@ a:focus {
   text-align: center;
 }
 .list-item.TASK_PINNED .icon-star {
-  color: #2cc5d2;
+  color: #39d223;
 }
 .list-item.TASK_ARCHIVED input[type="text"] {
   color: #aaa;
@@ -945,7 +945,7 @@ a:focus {
 .wrapper-message [class*=" icon-"] {
   font-size: 48px;
   line-height: 56px;
-  color: #2cc5d2;
+  color: #3ed21d;
   display: block;
 }
 .wrapper-message .title-message {
@@ -987,7 +987,7 @@ a:focus {
   white-space: nowrap;
   font-family: 'Nunito Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #1c3f53;
+  color: #125325;
   display: inline-block;
   vertical-align: top;
   max-width: 100%;
