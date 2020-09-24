@@ -13,10 +13,12 @@ export const ButtonContainer = styled.div`
     background-color: #E9E9E9;
 `;
 
-export const InnerButton = styled.div<{ active: boolean }>`
+export const InnerButton = styled.div`
+    height: ${props => props.large ? `30px`: `px` };
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #555555;
     color: #555555;
     border-radius: 15px;
     margin: 1px;
