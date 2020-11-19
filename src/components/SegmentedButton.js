@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 export function SegmentedButton({ className, value, options, onChange, large}) {
     return (
-        <ButtonContainer className={className}>
+        <ButtonContainer className={className} >
             {options.map((option, index) => (
                 <InnerButton large={large} className ={className} key={index} active={value === option} onClick={() => onChange(option)}>
                     {option}
